@@ -2,92 +2,183 @@
 
 /* Default */
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 50px;
 }
 
 /* Heading Section */
 .logo {
-  margin-top: 30px;
-  margin-right: 50px;
-  display: flex;
-  justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 h1 {
-  font-size: 80px;
-  text-shadow: 2px 2px 18px #424242;
+    font-size: 80px;
+    text-shadow: 2px 2px 18px #424242;
 }
 
 p {
-  font-size: 30px;
-  font-weight: bolder;
-  color: gray;
+    font-size: 30px;
+    font-weight: bolder;
+    color: gray;
 }
 
 /* Table */
 th {
-  color: white;
-  background-color: rgb(240, 80, 51);
+    color: white;
+    background-color: rgb(240, 80, 51);
 }
+
 th:nth-child(2) {
-  text-align: right;
+    text-align: right;
 }
 
 .scoreboard {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 a {
-  color: rgb(25, 167, 255);
+    color: rgb(25, 167, 255);
 }
 
 .table {
-  background-color: white;
-  text-align: left;
-  border-collapse: collapse;
-  font-size: 20px;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 20px;
 }
 
 td,
 th {
-  text-align: center;
-  padding: 10px;
+    text-align: center;
+    padding: 10px;
 }
 
 td {
-  padding: 15px 30px;
-  text-align: center;
-  border-bottom: 2px solid rgb(212, 212, 212);
+    padding: 15px 30px;
+    text-align: center;
+    border-bottom: 2px solid rgb(212, 212, 212);
 }
+
 td:nth-child(2) {
-  padding-right: 90px;
-  color: rgb(178, 178, 178);
-  text-align: left;
+    padding-right: 90px;
+    color: rgb(178, 178, 178);
+    text-align: left;
 }
+
 td:nth-child(7) {
-  text-align: right;
+    text-align: right;
 }
+
 td:nth-child(1) {
-  text-align: left;
+    text-align: left;
 }
 
 footer {
-  font-size: 25px;
-  margin-top: 40px;
+    font-size: 25px;
+    margin-top: 40px;
 }
 
 /* Images */
 
 .imgsection {
-  z-index: 2;
-  display: none;
+    z-index: 2;
+    display: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* SehWag  */
+#virenderimg {
+    position: absolute;
+    top: 357px;
+    left: 50px;
+}
+
+/* sachin */
+#sachinimg {
+    position: absolute;
+    top: 420px;
+    left: 50px;
+}
+
+/* gambhir */
+#gambhirimg {
+    position: absolute;
+    top: 475px;
+    left: 50px;
+}
+
+/* kolhi */
+#viratimg {
+    position: absolute;
+    top: 520px;
+    left: 70px;
+}
+
+/* Dhoni */
+#dhoniimg {
+    position: absolute;
+    top: 580px;
+    left: 50px;
+}
+
+/* yuvraj */
+#yuvrajimg {
+    position: absolute;
+    top: 640px;
+    left: 50px;
+    display: none;
+}
+
+/* Suresh */
+#sureshimg {
+    position: absolute;
+    top: 819px;
+    left: 322px;
+}
+
+/* singh */
+#harbhajanimg {
+    position: absolute;
+    top: 819px;
+    left: 443px;
+}
+
+/* khan */
+#zaheerimg {
+    position: absolute;
+    top: 819px;
+    left: 593px;
+}
+
+/* Patel */
+#munafimg {
+    position: absolute;
+    top: 819px;
+    left: 725px;
+
+}
+
+/* shreeknth */
+#sreesanthimg {
+    position: absolute;
+    top: 819px;
+    left: 830px;
+}
+
+.img {
+    display: none;
 }
